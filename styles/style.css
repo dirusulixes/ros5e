@@ -1,0 +1,47 @@
+
+
+/******************************
+/        Fonts
+******************************/
+/* @font-face{
+    font-family: Ecstasy;
+    src:url(/modules/ros/fonts/Ecstasy.otf);
+} */
+
+
+/**** Logo and Pause Spinner Styling ****/
+#pause {
+    background: none;
+}
+
+#pause img {
+    content: url("/modules/ros/assets/ros-pause.svg");
+	/* filter: invert(29%) sepia(19%) saturate(3604%) hue-rotate(325deg) brightness(90%) contrast(91%); */
+    width: 180px;
+    height: 180px;
+    top: -50px;
+    left: calc(50% - 90px);
+    opacity: 1;
+    -webkit-animation: rotation 12s infinite linear;
+    animation: rotation 12s infinite linear;
+	
+}
+
+/* #pause h3 {
+    font-family: Ecstasy, sans-serif;
+    font-size: 58px;
+    text-shadow: 0px 5px 45px rgba(255, 255, 255, 0.70);
+	color: #461313;
+} */
+
+#logo {
+	
+    content: url("/modules/ros/assets/ros-logo-text-only.png");
+    width: 90px;
+	height: 45px;
+	
+}
+
+/* #navigation{
+	left: 260px; 
+} */
