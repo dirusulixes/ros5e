@@ -106,7 +106,7 @@ function patch_newShortRest() {
             }
 
             const dhd = this.data.data.attributes.hd - hd0;
-            const dhp = this.data.data.attributes.hp.value - hp0; debugger;
+            const dhp = this.data.data.attributes.hp.value - hp0;
             return this._rest(chat, newDay, false, dhd, dhp);
         },
         "OVERRIDE",
