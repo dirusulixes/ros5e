@@ -34,10 +34,10 @@
       }
     ],
     "esmodules": [
-      "/scripts/module.js"
+      "/scripts/ros.js"
     ],
     "styles": [
-      "/styles/module.css"
+      "/styles/style.css"
     ],
     "languages": [
       {
