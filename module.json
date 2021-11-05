@@ -4,7 +4,7 @@
     "description": "This module modifies and extend the the official DND5E system module to implement the Ruins of Symbaroum 5e rules",
     "version": "This is auto replaced",
     "manifestPlusVersion": "0.1.0",
-    "minimumCoreVersion": "0.8.8",
+    "minimumCoreVersion": "0.8.5",
     "compatibleCoreVersion": "0.8.9",
     "authors": [
       {
