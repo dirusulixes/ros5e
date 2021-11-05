@@ -8,7 +8,7 @@ This module modifies and extend the the official D&D5e system module to implemen
 
 + Resting rules are implemented with the exception of the ability to spend hit dice to reduce temporary corruption via the resting UI (planned).
 + Corruption rules are implemented and corruption calculations as well as rolls are automated.
-+ The weapon new ensnaring property is implemented and automated.
++ The ensnaring weapon property is implemented and automated.
 + Some of the default options set by the DnD5e system module are changed to better suit the Ruins of Symbaroum ruleset.
   + Spell slots are not paid by default when casting spell (completely hiding spell slots is planned).
   + Variant resting rules from the DMG are hidden since they are not viable in Ruins of Symbaroum.
