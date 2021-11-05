@@ -6,11 +6,11 @@
 
 This module modifies and extend the the official D&D5e system module to implement the rules from [Ruins of Symbaroum](https://www.kickstarter.com/projects/1192053011/ruins-of-symbaroum-for-5e/description) by Free League.
 
-+ The resting rules are implemented with the exception of the ability to spend hit dice for reducing temporary corruption via the resting UI (planned)
-+ Corruption rules are implemented and corruption calculations and rolls are automated
-+ The weapon new ensnaring property is implemented and automated
++ The resting rules are implemented with the exception of the ability to spend hit dice for reducing temporary corruption via the resting UI (planned).
++ Corruption rules are implemented and corruption calculations as well as rolls are automated.
++ The weapon new ensnaring property is implemented and automated.
 + Some of the default options set by the DnD5e system module are changed to better suit the Ruins of Symbaroum ruleset.
-  + Spell slots are not paid by default when casting spell (completely hiding spell slots is planned)
+  + Spell slots are not paid by default when casting spell (completely hiding spell slots is planned).
   + Variant resting rules from the DMG are hidden since they are not viable in Ruins of Symbaroum.
 + The character sheet is modified to include the required corruption trackers (as resources), and the appropriate languages and currencies.
   + Compatibility with the Tidy5e Sheet module is maintained.
