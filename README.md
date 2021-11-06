@@ -4,7 +4,7 @@
 
 ## What does it do?
 
-This module modifies and extend the the official D&D5e system module to implement the rules from [Ruins of Symbaroum](https://www.kickstarter.com/projects/1192053011/ruins-of-symbaroum-for-5e/description) by Free League.
+This module modifies and extends the the official D&D5e system module to implement the rules from [Ruins of Symbaroum](https://www.kickstarter.com/projects/1192053011/ruins-of-symbaroum-for-5e/description) by Free League.
 
 + Resting rules are implemented with the exception of the ability to spend hit dice to reduce temporary corruption via the resting UI (planned).
 + Corruption rules are implemented and corruption calculations as well as rolls are automated.
@@ -18,7 +18,7 @@ This module modifies and extend the the official D&D5e system module to implemen
 ## How does it do it?
 This module is composed of two kinds of code:
 + the good kind, that I lifted from much more competently written modules. In particular [Adventures in Middle-earth](https://gitlab.com/dwinther/aime-module) by [Dan Wither](https://gitlab.com/dwinther) and [FVTT Long Rest Hit Dice Healing for D&D 5e](https://github.com/schultzcole/FVTT-Long-Rest-HD-Healing-5e) by [Cole Schultz](https://github.com/schultzcole).
-+ my own kind, that I hackishly put together without any real knoweldge of javascript
++ my own kind, that I hackishly put together without any real knoweldge of javascript.
 
 I **actively discourage** anyone from installing this module unless ready to deal with all the possible bugs it introduces. PRs, bug reports, and suggestions are however very welcome in case you do.
 
