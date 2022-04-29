@@ -1,9 +1,6 @@
-<img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dirusulixes/ros5e/master/module.json"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfoundry%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fmaster%2Fmodule.json">
+![Foundry Core Compatible Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fdev%2Fmodule.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=orange&style=flat-square) <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfoundry%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fdev%2Fmodule.json&style=flat-square">
 
-![Foundry Core Compatible Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fdev%2Fsrc%2Fmodule.json&label=Foundry%20Version&query=$.compatibleCoreVersion&colorB=orange?style=flat-square)
-
-
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/dirusulixes/ros5e?include_prereleases?style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/dirusulixes/ros5e/total?style=flat-square)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/dirusulixes/ros5e?include_prereleases&style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/dirusulixes/ros5e/total?style=flat-square)
 # Ruins of Symbaroum 5e Automations and Styling
 
 ## What does it do?
