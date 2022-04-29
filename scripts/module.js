@@ -6,7 +6,7 @@ function capitalizeFirstLetter(str) {
 
 
 Hooks.on("init", async function () {
-    console.log('ros5e | Initializing Ruins of Symbaroum 5e - Automations and Theming Module');
+    console.log('ros5e | Initializing Ruins of Symbaroum 5e - Automations and Styling Module');
     
     // Prevent variant rest rules to appear as a world setting
 /*     game.settings.register("dnd5e", "restVariant", {
