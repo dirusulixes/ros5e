@@ -26,29 +26,31 @@ Hooks.on("init", async function () {
 
 	// Remove standard DND5e languages and add RoS ones
 	CONFIG.DND5E.languages = {
-		"ambrian": "ROS5E.LanguagesAmbrian",
-		"barbarian": "ROS5E.LanguagesBarbarian",
-		"dwarvish": "ROS5E.LanguagesDwarvish",
-		"doubletongue": "ROS5E.LanguagesDoubletongue",
-		"elvish": "ROS5E.LanguagesElvish",
-		"goblin": "ROS5E.LanguagesGoblin",
-		"ignan": "ROS5E.LanguagesIgnan",
-		"ogre": "ROS5E.LanguagesOgre",
-		"symbaric": "ROS5E.LanguagesSymbaric",
-		"tricklesting": "ROS5E.LanguagesTricklesting",
-		"troll": "ROS5E.LanguagesTroll",
-		"wolf-tongue": "ROS5E.LanguagesWolftongue"
+		ambrian: "ROS5E.LanguagesAmbrian",
+		barbarian: "ROS5E.LanguagesBarbarian",
+		dwarvish: "ROS5E.LanguagesDwarvish",
+		doubletongue: "ROS5E.LanguagesDoubletongue",
+		elvish: "ROS5E.LanguagesElvish",
+		goblin: "ROS5E.LanguagesGoblin",
+		ignan: "ROS5E.LanguagesIgnan",
+		ogre: "ROS5E.LanguagesOgre",
+		symbaric: "ROS5E.LanguagesSymbaric",
+		tricklesting: "ROS5E.LanguagesTricklesting",
+		troll: "ROS5E.LanguagesTroll",
+		wolftongue: "ROS5E.LanguagesWolftongue"
 	};
 	
 });
 
 // Automate ensaring weapon critial proning feature
-Hooks.on("midi-qol.DamageRollComplete", async function(arg) {
-	if(arg.item.type !== "weapon") return;
-    if(!arg.item.data.data.properties.ens || !arg.isCritical) return; 
-    //game.cub.addCondition("Prone", Array.from(arg.hitTargets)[0])
-	game.dfreds.effectInterface.toggleEffect('Prone', Array.from(arg.targets)[0].document.uuid);
-	//arg.targets.forEach(uuid => game.dfreds.effectInterface.addEffect('Prone', document.uuid));
+Hooks.on("midi-qol.DamageRollComplete", async function (workflow) {
+	if (!workflow.item?.hasDamage || workflow.hitTargets.size === 0) return;
+    if(!workflow.item.data.data.properties.ens || !workflow.isCritical) return; 
+	for (let target of workflow.damageList) {
+		const token = await fromUuid(target.tokenUuid)
+		await game.dfreds.effectInterface.addEffect({ effectName: "Prone", uuid: token }); 
+	
+	}
 });
 
 // Automate homebrew lingering injuries rule by damage type TODO: remove from module and move somewhere else
