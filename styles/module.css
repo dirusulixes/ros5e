@@ -15,7 +15,7 @@
 }
 
 #pause img {
-    content: url("/modules/ros/assets/ros-pause.svg");
+    content: url("/modules/ros5e/assets/ros-pause.svg");
 	/* filter: invert(29%) sepia(19%) saturate(3604%) hue-rotate(325deg) brightness(90%) contrast(91%); */
     width: 180px;
     height: 180px;
@@ -36,7 +36,7 @@
 
 #logo {
 	
-    content: url("/modules/ros/assets/ros-logo-text-only.png");
+    content: url("/modules/ros5e/assets/ros-logo-text-only.png");
     width: 90px;
 	height: 45px;
 	
