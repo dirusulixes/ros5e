@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dirusulixes/ros5e/dev/module.json"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfoundry%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fdev%2Fmodule.json&style=flat-square">
+<img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dirusulixes/ros5e/dev/module.json&style=flat-square"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfoundry%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fdev%2Fmodule.json&style=flat-square">
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/dirusulixes/ros5e?include_prereleases&style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/dirusulixes/ros5e/total?style=flat-square)
 # Ruins of Symbaroum 5e Automations and Styling
