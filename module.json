@@ -36,7 +36,7 @@
       "/scripts/ros.js"
     ],
     "styles": [
-      "/styles/style.css"
+      "/styles/module.css"
     ],
     "languages": [
       {
@@ -48,6 +48,8 @@
     "url": "This is auto replaced",
     "manifest": "This is auto replaced",
     "download": "This is auto replaced",
+    "license": "LICENSE",
+    "readme": "README.md",
     "media": [
       {
         "type": "icon",

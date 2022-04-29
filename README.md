@@ -1,6 +1,6 @@
-<img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dirusulixes/ros5e/master/module.json">
+<img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dirusulixes/ros5e/master/module.json"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfoundry%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fdirusulixes%2Fros5e%2Fmaster%2Fmodule.json">
 
-[![changelog-badge][changelog]]
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/dirusulixes/ros5e?include_prereleases) ![GitHub all releases](https://img.shields.io/github/downloads/dirusulixes/ros5e/total)
 # Ruins of Symbaroum 5e Automations and Theming
 
 ## What does it do?
@@ -22,4 +22,5 @@ This module is composed of two kinds of code:
 
 I **actively discourage** anyone from installing this module unless ready to deal with all the possible bugs it introduces. PRs, bug reports, and suggestions are however very welcome in case you do.
 
-[changelog]: ./CHANGELOG.md
+## Changelog
+[See here for a full changelog](./CHANGELOG.md)
