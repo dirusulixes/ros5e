@@ -9,7 +9,7 @@ Hooks.on("init", async function () {
     console.log('ros5e | Initializing Ruins of Symbaroum 5e - Automations and Theming Module');
     
     // Prevent variant rest rules to appear as a world setting
-    game.settings.register("dnd5e", "restVariant", {
+/*     game.settings.register("dnd5e", "restVariant", {
         name: "SETTINGS.5eRestN",
         hint: "SETTINGS.5eRestL",
         scope: "world",
@@ -21,7 +21,7 @@ Hooks.on("init", async function () {
           gritty: "SETTINGS.5eRestGritty",
           epic: "SETTINGS.5eRestEpic"
         }
-      });
+      }); */
 
 
 	// Remove standard DND5e languages and add RoS ones
@@ -47,7 +47,7 @@ Hooks.on("midi-qol.DamageRollComplete", async function(arg) {
 	if(arg.item.type !== "weapon") return;
     if(!arg.item.data.data.properties.ens || !arg.isCritical) return; 
     //game.cub.addCondition("Prone", Array.from(arg.hitTargets)[0])
-	game.dfreds.effectInterface.addEffect('Prone', Array.from(arg.targets)[0].document.uuid);
+	game.dfreds.effectInterface.toggleEffect('Prone', Array.from(arg.targets)[0].document.uuid);
 	//arg.targets.forEach(uuid => game.dfreds.effectInterface.addEffect('Prone', document.uuid));
 });
 
