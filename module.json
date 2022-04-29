@@ -2,49 +2,48 @@
     "name": "ros5e",
     "title": "Ruins of Symbaroum 5e - Automations and Theming",
     "description": "This module implements automations and theming for the the Ruins of Symbaroum 5e rules and setting",
-    "version": "This is auto replaced",
+    "version": "v0.2.0-alpha.1",
     "manifestPlusVersion": "0.1.0",
     "minimumCoreVersion": "0.8.5",
     "compatibleCoreVersion": "9",
     "authors": [
-      {
-        "name": "dirusulixes",
-        "url": "https://github.com/dirusulixes",
-        "discord": "dirusulixes#6754"
-      }
+        {
+            "name": "dirusulixes",
+            "url": "https://github.com/dirusulixes",
+            "discord": "dirusulixes#6754"
+        }
     ],
     "system": [
-      "dnd5e"
+        "dnd5e"
     ],
-    "dependencies": [ 
-      {
-        "name": "midi-qol",
-        "type": "module"
-      }
+    "dependencies": [
+        {
+            "name": "midi-qol",
+            "type": "module"
+        }
     ],
     "esmodules": [
-      "/scripts/module.js"
+        "/scripts/module.js"
     ],
     "styles": [
-      "/styles/module.css"
+        "/styles/module.css"
     ],
     "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json"
-      }
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
     ],
-    "url": "This is auto replaced",
-    "manifest": "This is auto replaced",
-    "download": "This is auto replaced",
+    "url": "https://github.com/dirusulixes/ros5e",
+    "manifest": "https://raw.githubusercontent.com/dirusulixes/ros5e/dev/module.json",
+    "download": "https://github.com/dirusulixes/ros5e/releases/download/v0.2.0-alpha.1/module.zip",
     "license": "LICENSE",
     "readme": "README.md",
     "media": [
-      {
-        "type": "icon",
-        "url": ""
-      }
+        {
+            "type": "icon",
+            "url": ""
+        }
     ]
-  }
-  
+}
