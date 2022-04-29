@@ -1,11 +1,11 @@
 {
-    "name": "ros",
-    "title": "Ruins of Symbaroum",
-    "description": "This module modifies and extend the the official DND5E system module to implement the Ruins of Symbaroum 5e rules",
+    "name": "ros5e",
+    "title": "Ruins of Symbaroum 5e - Automations and Theming",
+    "description": "This module implements automations and theming for the the Ruins of Symbaroum 5e rules and setting",
     "version": "This is auto replaced",
     "manifestPlusVersion": "0.1.0",
     "minimumCoreVersion": "0.8.5",
-    "compatibleCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9",
     "authors": [
       {
         "name": "dirusulixes",
@@ -16,24 +16,14 @@
     "system": [
       "dnd5e"
     ],
-    "dependencies": [
-      {
-        "name": "lib-wrapper",
-        "type": "module"
-      }, 
+    "dependencies": [ 
       {
         "name": "midi-qol",
         "type": "module"
       }
     ],
-    "conflicts": [
-      {
-        "name": "long-rest-hd-healing",
-        "type": "module"
-      }
-    ],
     "esmodules": [
-      "/scripts/ros.js"
+      "/scripts/module.js"
     ],
     "styles": [
       "/styles/module.css"
