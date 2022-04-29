@@ -1,9 +1,9 @@
 <img src="https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/dirusulixes/ros5e/master/module.json">
 
-# Ruins of Symbaroum 5e Module
+[![changelog-badge][changelog]]
+# Ruins of Symbaroum 5e Automations and Theming
 
 ## What does it do?
-
 This module modifies and extends the the official D&D5e system module to implement the rules from [Ruins of Symbaroum](https://www.kickstarter.com/projects/1192053011/ruins-of-symbaroum-for-5e/description) by Free League.
 
 + Resting rules are implemented with the exception of the ability to spend hit dice to reduce temporary corruption via the resting UI (planned).
@@ -22,5 +22,4 @@ This module is composed of two kinds of code:
 
 I **actively discourage** anyone from installing this module unless ready to deal with all the possible bugs it introduces. PRs, bug reports, and suggestions are however very welcome in case you do.
 
-## Changelog
-coming soon...
+[changelog]: ./CHANGELOG.md
