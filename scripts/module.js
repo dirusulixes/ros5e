@@ -45,11 +45,12 @@ Hooks.on("init", async function () {
 // Automate ensaring weapon critial proning feature
 Hooks.on("midi-qol.DamageRollComplete", async function (workflow) {
 	if (!workflow.item?.hasDamage || workflow.hitTargets.size === 0) return;
-    if(!workflow.item.data.data.properties.ens || !workflow.isCritical) return; 
-	for (let target of workflow.damageList) {
-		const token = await fromUuid(target.tokenUuid)
-		await game.dfreds.effectInterface.addEffect({ effectName: "Prone", uuid: token }); 
-	
+    if (!workflow.item.data.data.properties.ens || !workflow.isCritical) return; 
+	for (let target of workflow.hitTargets) {
+		let isProne = await game.dfreds.effectInterface.hasEffectApplied("Prone", target.document.uuid);
+		if (!isProne) {
+			await game.dfreds.effectInterface.addEffect({ effectName: "Prone", uuid: target.document.uuid });
+		} 
 	}
 });
 
